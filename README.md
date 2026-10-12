@@ -101,3 +101,35 @@ Aplikasi frontend akan aktif di `http://localhost:3000`.
 3. **Role-Based Access Control (RBAC)**: Pembatasan akses API berdasarkan peran (Mahasiswa hanya dapat presensi, Dosen/Admin dapat melihat rekap dan mengekspor data).
 4. **Anti-Spoofing / Liveness**: Verifikasi kedipan mata dan senyuman sebelum pengiriman data wajah untuk mencegah manipulasi menggunakan foto cetak atau layar ponsel.
 5. **Audit Trail**: Setiap percobaan absensi dicatat lengkap dengan **alamat IP klien**, **status keberhasilan**, dan **stempel waktu**.
+
+## Tampilan Aplikasi
+
+**Login**
+![Login](docs/screenshots/login.webp)
+
+**Halaman Login**
+<img width="1920" height="964" alt="{5CAD0C89-66A7-4BBB-BCC5-E77D115E4AA4}" src="https://github.com/user-attachments/assets/4c1a4819-ae32-43f5-8130-91092981f8d4" />
+
+
+**Pendaftaran Wajah**
+<img width="1897" height="971" alt="{60F97D03-386E-4120-ADA7-EC3639A7247B}" src="https://github.com/user-attachments/assets/ae1ed203-37b9-425b-99f7-39decf0116e9" />
+
+
+**Presensi Harian**
+<img width="1918" height="962" alt="{6A5BF32A-5610-4A7D-9BB6-7B61066EBD86}" src="https://github.com/user-attachments/assets/957579ad-f1a1-4e2b-98bc-f75ba5ecca61" />
+
+
+## Pembagian Tugas
+
+| No | Nama Anggota | Peran | Tugas & Tanggung Jawab |
+|:---|:---|:---|:---|
+| 1 | Rudi Kurniawan |  | Setup repository GitHub, merancang kerangka awal aplikasi React, dan mengatur *Routing* akses pengguna (RBAC). |
+| 2 |  |Rivaldo Juniar Ardana | Agregasi data kehadiran per mahasiswa dan per mata kuliah.
+Logika evaluasi kelayakan mengikuti ujian akhir: evaluasi otomatis persentase kehadiran terhadap standar minimal $\ge 75%$.|
+| 3 | Andi Mulyono | Kartu indikator metrik utama: Total Mahasiswa, Terdaftar Biometrik, Kehadiran Hari Ini, dan Mahasiswa Terlambat.
+Visualisasi titik lokasi ruang kelas perkuliahan menggunakan peta interaktif Leaflet OpenStreetMap |
+| 4 | Anton Yogaswara | Pencatatan alamat IP klien, user-agent perangkat, jenis aksi, status keberhasilan, dan timestamp ke dalam tabel log audit.
+Pembuatan dokumentasi teknis sistem, petunjuk instalasi backend/frontend, diagram alur sistem, serta akun uji coba default.|
+| 5 | Muhammad Aziis Baehacqi | Pencatatan alamat IP klien, user-agent perangkat, jenis aksi, status keberhasilan, dan timestamp ke dalam tabel log audit.
+Pembuatan dokumentasi teknis sistem, petunjuk instalasi backend/frontend, diagram alur sistem, serta akun uji coba default. |
+
