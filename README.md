@@ -122,7 +122,7 @@ Aplikasi frontend akan aktif di `http://localhost:3000`.
 ## Pembagian Tugas
 
 | No | Nama Anggota | Tugas & Tanggung Jawab |
-|:---|:---|:---|:---|
+|:---|:---|:---|
 | 1 | Rudi Kurniawan |  | Setup repository GitHub, merancang kerangka awal aplikasi React, dan mengatur *Routing* akses pengguna (RBAC). |
 | 2 |  |Rivaldo Juniar Ardana | Agregasi data kehadiran per mahasiswa dan per mata kuliah.
 Logika evaluasi kelayakan mengikuti ujian akhir: evaluasi otomatis persentase kehadiran terhadap standar minimal $\ge 75%$.|
